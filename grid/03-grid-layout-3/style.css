@@ -53,9 +53,9 @@ li {
   gap: 50px;
 }
 
+/* Edit */
 .sidebar div {
   display: grid;
-  /* justify-items: end; */
   align-items: center;
 }
 
@@ -94,6 +94,10 @@ li {
   background-color: #bccbde;
   /* Edit */
   grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 400px)); */
+  gap: 15px;
 }
 
 .article p {
@@ -107,6 +111,8 @@ li {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  /* Edit */
+  height: 200px;
 }
 
 .card p {
