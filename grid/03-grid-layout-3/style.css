@@ -47,7 +47,16 @@ li {
 
 .sidebar {
   background-color: #C50208;
+  /* Edit */
   grid-row: 2 / 4;
+  display: grid;
+  gap: 50px;
+}
+
+.sidebar div {
+  display: grid;
+  /* justify-items: end; */
+  align-items: center;
 }
 
 .sidebar .photo {
